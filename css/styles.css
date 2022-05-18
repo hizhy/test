@@ -1,4 +1,6 @@
-.body {
+body {
     background-color: teal;
     color: black;
+    width: 600px;
+    box-shadow: 20px;
 }
