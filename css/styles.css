@@ -4,3 +4,8 @@ body {
     width: 600px;
     box-shadow: 20px;
 }
+.section {background-color:wheat;
+    color: blue;
+    box-shadow: 20px;
+    margin: 40px;
+}
