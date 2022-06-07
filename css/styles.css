@@ -1,4 +1,6 @@
 body {
+    font-family: 'Red Hat Display',
+    sans-serif;
     background-color: rgb(206, 238, 238);
     color: black;
     width: 600px;
@@ -8,4 +10,44 @@ body {
     color: blue;
     box-shadow: 20px;
     margin: 40px;
+}
+.menu>li {
+    border: 1px solid tomato;
+}
+.submenu {
+    border: 2px solid blueviolet;
+}
+/* a[title] {
+    color: teal;
+} */
+/* Незвичне форматування фігурних дужок - це нормально */
+a[href="https://htmlreference.io"] {
+    color: teal;
+    text-decoration: none;
+}
+
+a[href="https://cssreference.io"] {
+    color: orange;
+}
+
+a[href="https://www.youtube.com"] {
+    color: tomato;
+    text-decoration: none;
+}
+.social-links .link {
+    color: teal;
+}
+
+/* Два і більше селекторів розділяються комою */
+.social-links .link:hover,
+.social-links .link:focus {
+    color: orange;
+}
+
+.social-links .link:active {
+    color: red;
+}
+
+.social-links .link:visited {
+    color: green;
 }
